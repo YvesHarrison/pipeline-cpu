@@ -1,0 +1,4 @@
+module pipedereg(dwreg,dm2reg,dwmem,daluc,daluimm,da,db,dimm,drn,dshift,djal,dpc4,clk,clrn,ewreg,em2reg,ewmem,ealuc,ealuimm,ea,eb,eimm,ern,
+					  eshift,ejal,epc4);
+					  
+endmodule

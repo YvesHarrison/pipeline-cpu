@@ -1,0 +1,3 @@
+module piplemem(a,inst);
+
+endmodule

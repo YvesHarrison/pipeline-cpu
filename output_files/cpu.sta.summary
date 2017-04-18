@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock'
+Slack : -16.210
+TNS   : -6003.765
+
+Type  : Slow Model Setup 'memclock'
+Slack : -1.914
+TNS   : -52.259
+
+Type  : Slow Model Setup 'cpu_clock'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Slow Model Hold 'cpu_clock'
+Slack : -2.551
+TNS   : -5.102
+
+Type  : Slow Model Hold 'memclock'
+Slack : -1.632
+TNS   : -34.748
+
+Type  : Slow Model Hold 'clock'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'memclock'
+Slack : -2.000
+TNS   : -129.076
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -1.423
+TNS   : -1370.072
+
+Type  : Slow Model Minimum Pulse Width 'cpu_clock'
+Slack : -1.380
+TNS   : -4.380
+
+Type  : Fast Model Setup 'clock'
+Slack : -6.745
+TNS   : -2425.210
+
+Type  : Fast Model Setup 'memclock'
+Slack : -1.460
+TNS   : -15.069
+
+Type  : Fast Model Setup 'cpu_clock'
+Slack : 0.631
+TNS   : 0.000
+
+Type  : Fast Model Hold 'cpu_clock'
+Slack : -1.591
+TNS   : -3.182
+
+Type  : Fast Model Hold 'memclock'
+Slack : -1.213
+TNS   : -25.085
+
+Type  : Fast Model Hold 'clock'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'memclock'
+Slack : -2.000
+TNS   : -129.076
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -1.423
+TNS   : -1370.072
+
+Type  : Fast Model Minimum Pulse Width 'cpu_clock'
+Slack : -1.380
+TNS   : -4.380
+
+------------------------------------------------------------

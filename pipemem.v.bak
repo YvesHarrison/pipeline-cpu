@@ -1,0 +1,3 @@
+module	pipemem(we,addr,datain,clk,inclk,outclk,dataout);
+
+endmodule

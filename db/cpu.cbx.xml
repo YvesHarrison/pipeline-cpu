@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="cpu">
+		<CBX_INST_ENTRY INSTANCE_NAME="|piplelinedcpu|pipeif:if_stage|pipeimem:inst_mem|lpm_rom_irom:irom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_qib1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|piplelinedcpu|pipemem:mem_stage|lpm_ram_dq_dram:dram|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_62f1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

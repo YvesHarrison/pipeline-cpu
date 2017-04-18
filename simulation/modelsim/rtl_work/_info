@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0\npunchcpu\simulation\modelsim
+vmux2x5
+!i10b 1
+!s100 _2884Q;Y8PobV]@9ihTmW0
+I@[ZZJ=ENkNHooHCEP5`BI3
+Vah3g>_]Y^Qz2GXD7HR^<<3
+Z1 dC:\altera\13.0\npunchcpu\simulation\modelsim
+w1253170143
+8C:/altera/13.0/npunchcpu/mux2x5.v
+FC:/altera/13.0/npunchcpu/mux2x5.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1463498798.304000
+!s107 C:/altera/13.0/npunchcpu/mux2x5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/npunchcpu|C:/altera/13.0/npunchcpu/mux2x5.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu -O0
+vmux4x32
+I49?N59E>0EW^WXdo:BDJh3
+VM:hYY`k:C]4^:^k7d8C]M0
+R1
+w1252998688
+8C:/altera/13.0/npunchcpu/mux4x32.v
+FC:/altera/13.0/npunchcpu/mux4x32.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 SN`WZ8l;>W?V@GPR2nWoz2
+!s85 0
+!s108 1463498795.541000
+!s107 C:/altera/13.0/npunchcpu/mux4x32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/npunchcpu|C:/altera/13.0/npunchcpu/mux4x32.v|
+!s101 -O0
+R4

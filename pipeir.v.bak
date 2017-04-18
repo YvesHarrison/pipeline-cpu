@@ -1,0 +1,3 @@
+module pipeir(pc4,ins,wir,clk,clrn,dpc4,inst);
+
+endmodule

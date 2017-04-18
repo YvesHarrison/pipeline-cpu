@@ -1,0 +1,4 @@
+module piplelinedcpu(clock,memclock,resetn,pc,inst,ealu,malu,walu);
+
+
+endmodule

@@ -1,0 +1,3 @@
+module pipemwreg(mwreg,mm2reg,mmo,malu,mrn,clk,clrn,wwreg,wm2reg,wmo,walu,wrn);
+
+endmodule

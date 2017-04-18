@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/mux4x32.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/mux2x5.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/piplelinedcpu.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipepc.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipeif.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/piplemem.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipeir.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipeid.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipeidcu.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipedereg.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipeexe.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipeemreg.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipemem.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/pipemwreg.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/mux2x32.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/dffe32.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/alu.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/lpm_ram_dq_dram.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/lpm_rom_irom.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/get_switch.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/transform.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0/npunchcpu {C:/altera/13.0/npunchcpu/led.v}
+
